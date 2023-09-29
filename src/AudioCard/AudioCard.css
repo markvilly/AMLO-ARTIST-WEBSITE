@@ -1,0 +1,13 @@
+.audio-div {
+  width: 35%;
+  margin-bottom: 100px;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+.price-tag {
+  font-size: 1.7rem;
+  font-weight: 200;
+}

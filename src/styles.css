@@ -1,0 +1,71 @@
+*,
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+body {
+  /* width: 95%; */
+  margin: auto;
+  background-color: #f8f2f6;
+  align-items: center;
+  text-align: center;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+a:hover {
+  color: black;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+div .amlo-logo img {
+  width: 300px;
+  position: relative;
+  bottom: 50px;
+  /* padding: 0; */
+}
+
+div.new-nav {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: -150px;
+  margin: 0;
+}
+
+div .new-nav-items {
+  list-style: none;
+  display: flex;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.5);
+  gap: 100px;
+  justify-content: center;
+  margin: 50px auto 10px auto;
+  padding: 0%;
+}
+
+div .new-nav-items .active {
+  color: black;
+}
+
+.latest-release {
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 50px;
+}
+
+.new-nav-items {
+  margin: 100px auto;
+}
+
+.new-nav-items:hover {
+  color: black;
+}

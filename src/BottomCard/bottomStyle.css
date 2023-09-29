@@ -1,0 +1,24 @@
+.bottom-space {
+  /* position: relative; */
+  /* padding: 100px auto; */
+  color: #f8f2f6;
+  background-color: black;
+  width: 100%;
+}
+
+.bottom-items {
+  list-style: none;
+  justify-content: center;
+  display: flex;
+  gap: 50px;
+  padding: 100px;
+  margin: 100px auto 0;
+}
+
+.bottom-item {
+  cursor: pointer;
+}
+
+.bottom-item:hover {
+  color: #d94d8b;
+}

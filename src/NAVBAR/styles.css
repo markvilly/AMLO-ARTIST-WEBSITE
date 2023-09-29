@@ -1,0 +1,36 @@
+.Navbar {
+  position: fixed;
+  top: 20px;
+  left: 2%;
+  width: 96%;
+  /* padding: auto; */
+  margin: 10px auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 1.2rem;
+  /* background-color: red; */
+  color: rgba(0, 0, 0, 0.5);
+  padding: auto;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.nav-item-right {
+  margin-left: auto;
+}
+.nav-item-left {
+  left: 10px;
+}
